@@ -3,7 +3,7 @@ Class Tigger{
     private static $instances = []; 
     private static $roarNumber = 0;
 
-    protected function __construct() {
+    private function __construct() {
         echo "Building character..." . '<br>' . PHP_EOL;
     } 
     protected function __clone(){}
